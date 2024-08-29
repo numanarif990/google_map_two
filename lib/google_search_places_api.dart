@@ -44,7 +44,7 @@ class _GoogleSearchPlacesApiState extends State<GoogleSearchPlacesApi> {
   }
 
   void getSuggestion(String input) async {
-    String KGOOGLE_PLACES_API = "AIzaSyDrXuX2BIv6S2OBfcTXxSYE33Y1YYxCxh4";
+    String KGOOGLE_PLACES_API = "place your api here";
     String baseUrl = 'https://maps.googleapis.com/maps/api/place/autocomplete/json';
     String request = '$baseUrl?input=$input&key=$KGOOGLE_PLACES_API&sessiontoken=$_sessionToken';
 
